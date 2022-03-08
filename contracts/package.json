@@ -1,7 +1,14 @@
 {
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
     "ethers": "^5.5.4",
     "hardhat": "^2.9.1"
+  },
+  "scripts": {
+    "deploy": "yarn hardhat run scripts/deploy.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
   }
 }

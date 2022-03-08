@@ -24,10 +24,10 @@ function csvJSON(csv: string){
         var obj: any = {};
         var currentline = lines[i].split(",");
 
-        obj[currentline[0].toLowerCase()] = parseInt(currentline[1]);
+        const key = currentline[0].toLowerCase();
+        obj[key] = parseFloat(currentline[1]);
   
-        result.airdrop = obj;
-  
+        result.airdrop = Object.assign({}, result.airdrop, obj);;
     }
 
     fs.writeFileSync(fileOutputName, JSON.stringify(result, null, 2));

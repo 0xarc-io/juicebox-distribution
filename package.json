@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "generate-list": "cd generator && npm run start",
+        "deploy": "cd contracts && yarn deploy",
+        "start": "cd frontend && npm run start"
+    }
+}

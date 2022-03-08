@@ -137,6 +137,8 @@ function useToken() {
     setDataLoading(true);
 
     // Force authentication
+    console.log(address);
+    
     if (address) {
       // Collect number of tokens for address
       const tokens = getAirdropAmount(address);
