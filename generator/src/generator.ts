@@ -6,7 +6,7 @@ import { logger } from "./utils/logger"; // Logging
 import { getAddress, parseUnits, solidityKeccak256 } from "ethers/lib/utils"; // Ethers utils
 
 // Output file path
-const outputPath: string = path.join(__dirname, "../merkle.json");
+const outputPath: string = path.join(__dirname, "../../merkle.json");
 
 // Airdrop recipient addresses and scaled token values
 type AirdropRecipient = {

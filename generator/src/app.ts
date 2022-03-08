@@ -4,7 +4,7 @@ import Generator from "./generator"; // Generator
 import { logger } from "./utils/logger"; // Logging
 
 // Config file path
-const configPath: string = path.join(__dirname, "../config.json");
+const configPath: string = path.join(__dirname, "../../config.json");
 
 /**
  * Throws error and exists process

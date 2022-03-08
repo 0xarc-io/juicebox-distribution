@@ -77,6 +77,7 @@ function useToken() {
    */
   const getAirdropAmount = (address: string): number => {
     // If address is in airdrop
+    
     if (address in config.airdrop) {
       // Return number of tokens available
       return config.airdrop[address];
@@ -139,6 +140,7 @@ function useToken() {
     if (address) {
       // Collect number of tokens for address
       const tokens = getAirdropAmount(address);
+      console.log(tokens);
       setNumTokens(tokens);
 
       // Collect claimed status for address, if part of airdrop (tokens > 0)

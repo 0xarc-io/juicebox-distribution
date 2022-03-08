@@ -4,6 +4,15 @@ import { token } from "state/token"; // Global state: Tokens
 import Layout from "components/Layout"; // Layout wrapper
 import styles from "styles/pages/Claim.module.scss"; // Page styles
 
+const primaryColour: string =
+process.env.NEXT_PUBLIC_COLOUR_PRIMARY ?? ""
+
+const secondaryColour: string =
+process.env.NEXT_PUBLIC_COLOUR_SECONDARY ?? ""
+
+console.log(primaryColour);
+console.log(secondaryColour);
+
 export default function Claim() {
   // Global ETH state
   const { address, unlock }: { address: string | null; unlock: Function } =
@@ -34,7 +43,7 @@ export default function Claim() {
 
   return (
     <Layout>
-      <div className={styles.claim}>
+      <div className={styles.claim} style={{color: primaryColour}}>
         {!address ? (
           // Not authenticated
           <div className={styles.card}>

@@ -4,6 +4,7 @@
 # Contracts
 contracts/cache
 contracts/out
+contracts/node_modules
 
 # Generator
 generator/node_modules
@@ -17,3 +18,4 @@ frontend/node_modules
 frontend/out
 frontend/.next
 frontend/.vercel
+frontend/node_modules
