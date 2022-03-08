@@ -5,6 +5,7 @@
 contracts/cache
 contracts/out
 contracts/node_modules
+contracts/artifacts
 
 # Generator
 generator/node_modules
