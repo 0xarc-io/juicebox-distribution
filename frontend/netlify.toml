@@ -4,7 +4,7 @@
 
     # Home page
 
-    NEXT_PUBLIC_URL="http://localhost:3000/"
+    NEXT_PUBLIC_URL="https://airdrop.juicebox.money/"
     NEXT_PUBLIC_TOKEN_NAME="Benefits Airdrop"
     NEXT_PUBLIC_HEADING="Juicebox DAO Benefits Airdrop"
     NEXT_PUBLIC_DESCRIPTION="Claim your JBX airdrop today. Allocations are calculated based on your Juicebox DAO Benefits Score — powered by ARCx."
@@ -14,7 +14,7 @@
     # Social links
     NEXT_PUBLIC_DISCORD="https://discord.gg/6jXrJSyDFf"
     NEXT_PUBLIC_TWITTER="https://twitter.com/juiceboxETH"
-    NEXT_PUBLIC_ARTICLE="https://mirror.xyz/"
+    NEXT_PUBLIC_ARTICLE="https://blog.juicebox.money/"
     NEXT_PUBLIC_GITHUB="https://github.com/jbx-protocol/"
 
     # Functionality
