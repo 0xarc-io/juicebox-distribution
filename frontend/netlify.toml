@@ -15,8 +15,8 @@
     NEXT_PUBLIC_DISCORD="https://discord.gg/6jXrJSyDFf"
     NEXT_PUBLIC_TWITTER="https://twitter.com/juiceboxETH"
     NEXT_PUBLIC_ARTICLE="https://mirror.xyz/"
-    NEXT_PUBLIC_GITHUB="https://github.com/jbx-protocol/juice-interface"
+    NEXT_PUBLIC_GITHUB="https://github.com/jbx-protocol/"
 
     # Functionality
-    NEXT_PUBLIC_CONTRACT_ADDRESS="0x881aF6dda7F131663b3C9Bc92F97Fd1CD1D340B4"
-    NEXT_PUBLIC_RPC_NETWORK="4"
+    NEXT_PUBLIC_CONTRACT_ADDRESS="0x518e3CdBcda4f0735399c9F1e03A7aBC7562632f"
+    NEXT_PUBLIC_RPC_NETWORK="1"

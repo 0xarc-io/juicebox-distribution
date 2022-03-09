@@ -5,9 +5,9 @@ async function main() {
   const MerkleContract = await hre.ethers.getContractFactory("MerkleDistributor");
 
   const merkleContract = await MerkleContract.deploy(
-      "0xc778417e063141139fce010982780140aa0cd5ab",                                     // token
-      "0x07e4720c559a375114bfeb18a115ca0754d476d5751b5654f9d3e4e54a3a3832",             // merkle root
-      "0x198e10b883B5A64F4ad46038B7Fb0691D20929eF"                                      // address that can sweep
+      "0x3abf2a4f8452ccc2cf7b4c1e4663147600646f66",                                     // token
+      "0xba0ccda021dd3008d51728ccd530dfe42d6bba07f8118d8a796e26d80e305009",             // merkle root
+      "0xAF28bcB48C40dBC86f52D459A6562F658fc94B1e"                                      // address that can sweep
   );
 
   console.log("Merkle Claim deployed to:", merkleContract.address);

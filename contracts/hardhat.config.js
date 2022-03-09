@@ -8,6 +8,10 @@ module.exports = {
     rinkeby: {
       url: process.env.RPC_URL,
       accounts: [`${process.env.DEPLOY_PRIVATE_KEY}`]
+    },
+    mainnet: {
+      url: process.env.RPC_URL,
+      accounts: [`${process.env.DEPLOY_PRIVATE_KEY}`]
     }
   },
   etherscan: {
