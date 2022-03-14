@@ -120,6 +120,9 @@ function useToken() {
     const proof: string[] = merkleTree.getHexProof(leaf);
 
     // Try to claim airdrop and refresh sync status
+
+    console.log(`Address: \n${formattedAddress}\n\nNumber of tokens: \n${numTokens}\n\nProof: \n${proof}`)
+    
     try {
       const tx = await token.claim(formattedAddress, numTokens, proof);
       await tx.wait(1);
