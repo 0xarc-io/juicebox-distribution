@@ -78,6 +78,9 @@ function useToken() {
   const getAirdropAmount = (address: string): number => {
     // If address is in airdrop
     
+    console.log('Getting address airdrop amount...');
+    console.log(address);
+    console.log(config.airdrop);
     if (address.toLowerCase() in config.airdrop) {
       // Return number of tokens available
       return config.airdrop[address];
